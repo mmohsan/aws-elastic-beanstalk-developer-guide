@@ -182,7 +182,7 @@ In most cases, you access environment properties in your application code like a
 
   ```
   import os
-  endpoint = os.environ['API_ENDPOINT']
+  endpoint = os.getenv('API_ENDPOINT')
   ```
 + [Ruby](create_deploy_Ruby.container.md#create_deploy_Ruby.env.console.ruby.envprops) – `ENV`
 
